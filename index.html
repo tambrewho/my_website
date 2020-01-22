@@ -21,7 +21,16 @@
         <div id="mydiv"> Hello World! </div>
         <!--you can also use this space for internal scripts;
         place these within <script> tags-->
-        <!-- <button onclickbutton="myFunction()"> Click me! </button> -->
+
+        <button onclick="clickFunction()"> Click me! </button>
+        <p id="demo"></p>
+
+        <script>
+          function clickFunction() {
+            document.getElementById("demo").innerHTML = "You Clicked Me!";
+          }
+        </script>
+
         <!--put your external script links here-->
         <script type="text/javascript" src="js/main.js"></script>
     </body>
