@@ -1,0 +1,10 @@
+#mydiv {
+  background-color: rgb(181, 222, 225);
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+
+  width: 50%;
+  margin: 0 auto;
+  height: 100px;
+}
